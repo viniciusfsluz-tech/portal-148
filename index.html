@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portal da 148 | IFSP Cubatão</title>
+  <meta name="description" content="Portal da turma 148 do IFSP Cubatão com os trabalhos de Geografia e Língua Portuguesa.">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="inicio" id="topo">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <a class="marca" href="index.html">Portal da <strong>148</strong></a>
+    <button id="menu-toggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">☰</button>
+    <nav id="menu-principal" class="menu" aria-label="Menu principal"></nav>
+    <button id="theme-toggle" class="botao-tema" type="button" aria-pressed="false">Tema claro</button>
+  </header>
+  <main id="conteudo">
+    <section class="hero">
+      <p class="eyebrow">Projeto Final Integrador · PL1</p>
+      <h1>Portal da 148</h1>
+      <p class="hero-texto">Aqui estão reunidos os trabalhos de Geografia e de Língua Portuguesa feitos pelos grupos da turma. Escolha uma matéria para ver os trabalhos de todos os grupos.</p>
+      <dl class="info-turma" id="info-turma"></dl>
+    </section>
+
+    <section class="materias" aria-label="Escolha uma matéria">
+      <a class="materia-card materia-geo" data-materia="geografia" href="geografia.html">
+        <h2>Geografia</h2>
+        <p>Impactos da computação no meio ambiente: data centers, energia, água e território.</p>
+        <span class="materia-qtd"></span>
+        <span class="botao">Ver trabalhos</span>
+      </a>
+      <a class="materia-card materia-pt" data-materia="portugues" href="portugues.html">
+        <h2>Português</h2>
+        <p>Contos, cordéis, resenhas e apresentações produzidos pelos grupos.</p>
+        <span class="materia-qtd"></span>
+        <span class="botao">Ver trabalhos</span>
+      </a>
+    </section>
+
+    <section class="bloco" aria-labelledby="t-pl1">
+      <h2 id="t-pl1">O que é o PL1?</h2>
+      <p>O Projeto Final Integrador reúne, em um só portal, as produções de duas disciplinas. Cada grupo desenvolveu o seu site e os trabalhos foram reunidos aqui. A equipe do portal tem um representante de cada grupo produtor.</p>
+      <p><a href="equipe.html">Conheça a equipe do portal →</a></p>
+    </section>
+
+    <section class="bloco" id="video-inicio" hidden aria-labelledby="t-video">
+      <h2 id="t-video">Vídeo de apresentação</h2>
+      <div class="video-frame"></div>
+    </section>
+
+    <section class="bloco qr-box" aria-labelledby="t-qr">
+      <h2 id="t-qr">Acesse pelo celular</h2>
+      <p>Aponte a câmera para o QR Code e abra o portal.</p>
+      <img src="img/qrcode.png" alt="QR Code com o link do portal" width="180" height="180" onerror="this.closest('.qr-box').hidden=true">
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p id="rodape-info">Portal da 148</p>
+    <p>Projeto Final Integrador (PL1) · feito somente com HTML, CSS e JavaScript.</p>
+    <a href="#topo">Voltar ao topo ↑</a>
+  </footer>
+  <button id="voltar-topo" class="voltar-topo" type="button" aria-label="Voltar ao topo" hidden>↑</button>
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

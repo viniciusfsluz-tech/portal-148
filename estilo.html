@@ -1,0 +1,87 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guia de estilo | Portal da 148</title>
+    <meta name="description" content="Cores, tipografia e componentes usados no portal.">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body data-page="estilo" id="topo">
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header">
+        <a class="marca" href="index.html">Portal da <strong>148</strong></a>
+        <button id="menu-toggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">☰</button>
+        <nav id="menu-principal" class="menu" aria-label="Menu principal"></nav>
+        <button id="theme-toggle" class="botao-tema" type="button" aria-pressed="false">Tema claro</button>
+    </header>
+    <main id="conteudo">
+        <section class="topo-pagina">
+        <p class="eyebrow">Guia de estilo</p>
+        <h1>Cores, tipos e componentes</h1>
+        <p class="hero-texto">Tudo que o portal usa para manter o visual igual em todas as páginas.</p>
+        </section>
+
+        <section class="bloco" aria-labelledby="e-cores">
+        <h2 id="e-cores">Cores do tema</h2>
+        <div class="amostras">
+            <div class="amostra" style="--c: var(--bg)"><span>Fundo</span><code>--bg</code></div>
+            <div class="amostra" style="--c: var(--surface)"><span>Superfície</span><code>--surface</code></div>
+            <div class="amostra" style="--c: var(--text); color: var(--bg)"><span>Texto</span><code>--text</code></div>
+            <div class="amostra" style="--c: var(--primary); color: #fff"><span>Destaque</span><code>--primary</code></div>
+        </div>
+        <h3>Cores dos grupos</h3>
+        <div class="amostras">
+            <div class="amostra" style="--c: var(--cor-1); color:#fff"><span>Grupo 1</span><code>--cor-1</code></div>
+            <div class="amostra" style="--c: var(--cor-2); color:#fff"><span>Grupo 2</span><code>--cor-2</code></div>
+            <div class="amostra" style="--c: var(--cor-3); color:#1d1d1d"><span>Grupo 3</span><code>--cor-3</code></div>
+            <div class="amostra" style="--c: var(--cor-4); color:#fff"><span>Grupo 4</span><code>--cor-4</code></div>
+            <div class="amostra" style="--c: var(--cor-5); color:#fff"><span>Grupo 5</span><code>--cor-5</code></div>
+            <div class="amostra" style="--c: var(--cor-6); color:#fff"><span>Grupo 6</span><code>--cor-6</code></div>
+            <div class="amostra" style="--c: var(--cor-7); color:#fff"><span>Grupo 7</span><code>--cor-7</code></div>
+            <div class="amostra" style="--c: var(--cor-8); color:#fff"><span>Grupo 8</span><code>--cor-8</code></div>
+        </div>
+        </section>
+
+        <section class="bloco" aria-labelledby="e-tipos">
+        <h2 id="e-tipos">Tipografia</h2>
+        <p>A fonte do texto é a <strong>Inter</strong> (Google Fonts), com Arial como reserva. Os títulos usam Georgia.</p>
+        <h1 class="exemplo">Título 1</h1>
+        <h2 class="exemplo">Título 2</h2>
+        <h3 class="exemplo">Título 3</h3>
+        <p>Texto corrido: o tamanho base é 1rem, com entrelinha de 1,7 para facilitar a leitura.</p>
+        </section>
+
+        <section class="bloco" aria-labelledby="e-comp">
+        <h2 id="e-comp">Componentes</h2>
+        <p><a class="botao" href="#e-comp">Botão principal</a> <button class="botao-tema" type="button">Botão secundário</button></p>
+        <span class="selo-grupo" style="--cor-grupo: var(--cor-2)">Selo de grupo</span>
+        <h3>Cartão de trabalho</h3>
+        <div class="cards">
+            <a class="card" href="#e-comp" style="--cor-grupo: var(--cor-1)">
+            <img src="img/geografia/data-center-aereo.jpeg" alt="Exemplo de imagem de cartão">
+            <div class="card-corpo">
+                <span class="selo-grupo">Nome do grupo</span>
+                <span class="categoria">Categoria</span>
+                <h3>Título do trabalho</h3>
+                <p>Resumo curto do trabalho, com no máximo duas ou três linhas.</p>
+                <span class="card-acao">Abrir trabalho <span aria-hidden="true">→</span></span>
+            </div>
+            </a>
+        </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p id="rodape-info">Portal da 148</p>
+        <p>Projeto Final Integrador (PL1) · feito somente com HTML, CSS e JavaScript.</p>
+        <a href="#topo">Voltar ao topo ↑</a>
+    </footer>
+    <button id="voltar-topo" class="voltar-topo" type="button" aria-label="Voltar ao topo" hidden>↑</button>
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+    </body>
+    </html>
