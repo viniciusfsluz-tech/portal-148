@@ -104,7 +104,7 @@ const grupos = [
             geografia: "https://geovanna2403.github.io/OConsumoDeAguaDaIntelig-nciaArtificial/",
             portugues: "https://geovanna2403.github.io/Trabalho_Portugues/"
         },
-        LinkGithub: { geografia: null, portugues: null },
+        LinkGithub: { geografia: "https://github.com/geovanna2403/OConsumoDeAguaDaIntelig-nciaArtificial.git", portugues:"https://github.com/geovanna2403/OConsumoDeAguaDaIntelig-nciaArtificial.git"},
         nomesSites: {
         geografia: "consumo de água da IA",
         portugues: "trabalho de português"
