@@ -115,8 +115,8 @@ const grupos = [
         nome: " Um passo abaixo - Uma incrível potência ou uma possível venda?",
         representante: "Nicole",
         integrantes: ["Nicole","Miuke","Marcelo","Maria eduarda","Isabelly"],
-        sites: { geografia: null, portugues: null },
-        LinkGithub: { geografia: null, portugues: null },
+        sites: { geografia: null , portugues: null },
+        LinkGithub: { geografia: https://github.com/max-093/trabalho-Geo.git , portugues: null },
         nomesSites: {
         geografia: "Um passo abaixo - Uma incrível potência ou uma possível venda?",
         portugues: "A Redescoberta: Entre Flores, Versos e Palavras"
