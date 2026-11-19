@@ -42,7 +42,7 @@ Cada grupo produziu um site em Geografia e outro em Português. O portal leva ao
 | Os Bardenistas | Lavínnia, Julia Sophia, Vitor, Kauã Hentique | ecosofia | Flânerie |
 | El Machos | Arthur Seiji, Luis Carlos, Davi Silva, Kauan Hideyuki | MinerTech | Límpidamente |
 | Blue Flow | Geovanna Vital, Maria Eduarda Lira, Rhuan Fonseca, Marina Matos, Giovanna Fernandes, Luis Felipe | consumo de água da IA | trabalho de português |
-| gp6 | Nicole, Miuke, Marcelo, Maria eduarda, Isabelly | _a publicar_ | _a publicar_ |
+| Um passo abaixo - Uma incrível potência ou uma possível venda? | Nicole, Miuke, Marcelo, Maria eduarda, Isabelly | _a publicar_ | _a publicar_ |
 | Oceon | Alessandra, Izabella, Eduarda R | _a publicar_ | _a publicar_ |
 | gp8 | Daphne, Laura, Anna, Gaby | _a publicar_ | _a publicar_ |
 
@@ -104,7 +104,7 @@ Cada integrante da Equipe do Portal registra o que fez.
 
 | Integrante | Data | O que fez | Tempo |
 |---|---|---|---|
-| Vinícius Ferreira | _PREENCHER_ | _PREENCHER_ | _PREENCHER_ |
+| Vinícius Ferreira | 10/11 | moutou estrutura base do HTML,CSS e JS,adicionou seus trabalhos | 1H30M |
 
 ## Como abrir o projeto
 
