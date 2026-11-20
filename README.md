@@ -104,7 +104,7 @@ Cada integrante da Equipe do Portal registra o que fez.
 
 | Integrante | Data | O que fez | Tempo |
 |---|---|---|---|
-| Vinícius Ferreira | 10/11 | moutou estrutura base do HTML,CSS e JS,adicionou seus trabalhos | 1H30M |
+| Vinícius Ferreira | 10/11 | montou estrutura base do HTML,CSS e JS,adicionou seus trabalhos | 1H30M |
 |Lucas Antonio |19/11 |Criação das logotipos do projeto e implementação de script para alternar automaticamente as imagens de acordo com o tema claro ou escuro |1H|
 
 ## Como abrir o projeto

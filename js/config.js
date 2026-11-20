@@ -73,8 +73,8 @@ const grupos = [
         nome: "Os Bardenistas",
         representante: "Lavínnia",
         integrantes: ["Lavínnia", "Julia Sophia","Vitor","Kauã Hentique"],
-        sites: { geografia: null, portugues: null },
-        LinkGithub: { geografia: null, portugues: null },
+        sites: { geografia: "https://lavinniawboliveira-coder.github.io/Ecosofia--Site/", portugues: "https://lavinniawboliveira-coder.github.io/Flanerie--site/" },
+        LinkGithub: { geografia: "https://github.com/lavinniawboliveira-coder/Ecosofia--Site", portugues: "https://github.com/lavinniawboliveira-coder/Flanerie--site" },
         nomesSites: {
         geografia: "ecosofia",
         portugues: "Flânerie"
