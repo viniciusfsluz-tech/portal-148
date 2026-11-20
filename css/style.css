@@ -28,7 +28,11 @@
   --sans: Inter, "Segoe UI", Arial, sans-serif;
   --display: "Poiret One", cursive;
   --serif: Georgia, "Times New Roman", serif;
+
+ 
+
 }
+
 
 :root[data-theme="claro"] {
   --bg: #f4f6fc;
@@ -39,6 +43,35 @@
   --primary: #91715b;
   --on-primary: #ffffff;
   --line: #ccd3e8;
+
+
+}
+
+/*logo*/
+.logo_escuro{display: block; 
+  
+  
+  height:auto ;
+  width: 60px;
+  
+  
+
+}
+.logo_claro{display: none;
+ height:auto ;
+  width: 60px;
+}
+
+
+/*quando for claro a logo muda*/
+:root[data-theme="claro"] .logo_escuro {
+  display: none;
+
+  
+}
+
+:root[data-theme="claro"] .logo_claro {
+  display: block;
 }
 
 .nome-site {
@@ -82,6 +115,9 @@ main { width: min(var(--largura), calc(100% - 32px)); margin: 0 auto; padding: 3
 
 .voltar-topo { position: fixed; right: 18px; bottom: 18px; width: 46px; height: 46px; border-radius: 50%; border: 0; background: var(--primary); color: var(--on-primary); font-size: 1.3rem; cursor: pointer; box-shadow: 0 6px 20px rgba(0,0,0,.35); z-index: 30; }
 .voltar-topo[hidden] { display: none; }
+
+
+
 
 /* ---------- Botões e selos ---------- */
 .botao { display: inline-block; background: var(--primary); color: var(--on-primary); padding: 10px 20px; border-radius: 999px; font-weight: 600; text-decoration: none; }
