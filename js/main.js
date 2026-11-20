@@ -370,7 +370,35 @@ function iniciarEquipe() {
             </article>`;
     }).join("");
 }
+// Seção "Conheça os professores": avatar, nome e matéria (vem do config.js)
+function iniciarProfessores() {
+    const lista = document.querySelector("#lista-professores");
+    if (!lista) return;
 
+    lista.innerHTML = config.professores.map(p => {
+        const iniciais = p.nome.trim().split(/\s+/).map(n => n[0]).slice(0, 2).join("").toUpperCase();
+        const avatar = p.foto
+            ? `<img class="avatar" src="${escaparHTML(p.foto)}" alt="Foto de ${escaparHTML(p.nome)}" data-iniciais="${escaparHTML(iniciais)}" width="110" height="110" loading="lazy">`
+            : `<span class="avatar avatar-iniciais" aria-hidden="true">${escaparHTML(iniciais)}</span>`;
+        return `
+            <li class="professor">
+                ${avatar}
+                <h3>${escaparHTML(p.nome)}</h3>
+                <p>${escaparHTML(p.materia)}</p>
+            </li>`;
+    }).join("");
+
+    // Se a foto não existir, troca por um círculo com as iniciais
+    lista.querySelectorAll("img.avatar").forEach(img => {
+        img.addEventListener("error", () => {
+            const inicial = document.createElement("span");
+            inicial.className = "avatar avatar-iniciais";
+            inicial.setAttribute("aria-hidden", "true");
+            inicial.textContent = img.dataset.iniciais;
+            img.replaceWith(inicial);
+        });
+    });
+}
 function iniciarRodape() {
     const rodape = document.querySelector("#rodape-info");
     if (rodape) rodape.textContent = `${config.titulo} · ${config.campus} · Turma ${config.turma} · ${config.ano}`;
@@ -383,6 +411,7 @@ document.addEventListener("DOMContentLoaded", () => {
     configurarVoltarTopo();
     iniciarRodape();
     iniciarInicio();
+    iniciarProfessores();
     iniciarMateria();
     iniciarLista();
     iniciarDetalhe();

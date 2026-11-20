@@ -9,9 +9,9 @@ const config = {
     turma: "148",
     ano: 2026,
     professores: [
-        { nome: "Nelson",  materia: "Programação",     areas: ["geografia","portugues"] },
-        { nome: "Augusto", materia: "Geografia",   areas: ["geografia"] },
-        { nome: "Fabiana", materia: "Português",     areas: ["portugues"] }
+        { nome: "Nelson",  materia: "Programação", areas: ["geografia","portugues"], foto: "img/professores/nelson.jpg" },
+        { nome: "Augusto", materia: "Geografia",   areas: ["geografia"],             foto: "img/professores/augusto.jpg" },
+        { nome: "Fabiana", materia: "Português",   areas: ["portugues"],             foto: "img/professores/fabiana.jpg" }
     ],
     // Vídeo da página inicial: null ou { tipo: "youtube", id: "CODIGO", titulo: "..." }
     videoInicio: null,
