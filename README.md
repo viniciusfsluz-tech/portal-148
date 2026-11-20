@@ -26,7 +26,7 @@ Um integrante de cada grupo produtor, representando o seu grupo.
 | Lucas Antônio | Instituto verdade digital | _PREENCHER_ |
 | Lavínnia | Os Bardenistas | _PREENCHER_ |
 | Kauã Hideyuki | El Machos | _PREENCHER_ |
-| Geovanna Vital | Blue Flow | _PREENCHER_ |
+| Geovanna Vital | Blue Flow | carrossel e video |
 | Nicole | Um passo abaixo - Uma incrível potência ou uma possível venda?| _PREENCHER_ |
 | Alexandra | Oceon | _PREENCHER_ |
 | Daphne | gp8 | _PREENCHER_ |
@@ -92,8 +92,8 @@ A paleta de cores, a tipografia e a justificativa das escolhas estão na página
 |---|---|---|
 | Fonte Inter | Google Fonts | SIL Open Font License |
 | Fonte Poiret One | Google Fonts | SIL Open Font License |
-| _Imagem do topo da página inicial_ | _PREENCHER: autor e link_ | _PREENCHER_ |
-| _Vídeo de apresentação_ | _PREENCHER: link_ | _PREENCHER_ |
+| imagem do topo da página inicial | Produção própria | Imagem autoral |
+|  Vídeo de apresentação |  YouTube – [https://youtu.be/vGdr_bD4XTI?si=Gh6bnGaiBVvCQDC0]|  Direitos autorais do autor original|
 | QR Code | Gerado a partir do endereço do portal publicado | — |
 
 As fontes de imagens, textos e vídeos de cada trabalho ficam nos READMEs e nas páginas dos sites de cada grupo.
