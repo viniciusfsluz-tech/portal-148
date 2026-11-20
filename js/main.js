@@ -441,3 +441,41 @@ document.addEventListener("DOMContentLoaded", () => {
     iniciarDetalhe();
     iniciarEquipe();
 });
+
+
+/*====== carrossel ====== */
+let imagemAtual = 0;
+
+const imagens = document.querySelectorAll(".carrossel-imagens img");
+const indicadores = document.querySelectorAll(".indicadores button");
+
+function mostrarImagem(indice) {
+
+    imagens[imagemAtual].classList.remove("ativa");
+    indicadores[imagemAtual].classList.remove("ativo");
+
+    imagemAtual = indice;
+
+    imagens[imagemAtual].classList.add("ativa");
+    indicadores[imagemAtual].classList.add("ativo");
+}
+
+function mudarImagem(direcao) {
+
+    let proxima = imagemAtual + direcao;
+
+    if (proxima >= imagens.length) {
+        proxima = 0;
+    }
+
+    if (proxima < 0) {
+        proxima = imagens.length - 1;
+    }
+
+    mostrarImagem(proxima);
+}
+
+// Troca automática a cada 5 segundos
+setInterval(() => {
+    mudarImagem(1);
+}, 5000);

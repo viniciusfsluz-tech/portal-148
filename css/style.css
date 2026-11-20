@@ -243,6 +243,7 @@ body {
   letter-spacing: .02em;           /* respira mais */
   -webkit-text-stroke: .5px currentColor;  /* engrossa o traço */
 }
+
 /* ---------- Professores ---------- */
 .professores { list-style: none; margin: 18px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 24px; }
 .professor { text-align: center; }
@@ -250,3 +251,178 @@ body {
 .avatar-iniciais { display: flex; align-items: center; justify-content: center; font-family: var(--serif); font-size: 2rem; font-weight: 700; color: var(--on-primary); background: var(--primary); }
 .professor h3 { margin: 0 0 4px; }
 .professor p { margin: 0; color: var(--muted); }
+
+
+
+
+/* ---------- carrossel ---------- */
+
+.destaque-campus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 35px auto;
+    padding: 0 15px;
+}
+
+/* TÍTULOS */
+
+.titulo-destaque {
+    font-family: var(--display);
+    font-size: 23px;
+    color: var(--text);
+    text-align: center;
+    margin-bottom: 18px;
+    min-height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CARROSSEL */
+
+.carrossel-campus {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.carrossel-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 14px;
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
+}
+
+.carrossel-imagens {
+    width: 100%;
+    height: 100%;
+}
+
+.carrossel-imagens img {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.carrossel-imagens img.ativa {
+    display: block;
+}
+
+/* SETAS */
+
+.seta {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--line);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.seta:hover {
+    background: var(--primary);
+    color: var(--on-primary);
+}
+
+.seta.anterior {
+    left: 12px;
+}
+
+.seta.proxima {
+    right: 12px;
+}
+
+/* INDICADORES */
+
+.indicadores {
+    position: absolute;
+    bottom: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+
+.indicadores button {
+    width: 9px;
+    height: 9px;
+    border: none;
+    border-radius: 50%;
+    background: var(--text);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.indicadores button.ativo {
+    background: var(--primary);
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+/* TEMA CLARO */
+
+:root[data-theme="claro"] .carrossel-container {
+    background-color: #91715b;
+    border-color: #91715b;
+}
+
+/* VÍDEO */
+
+.video-campus {
+    width: 100%;
+    min-width: 0;
+}
+
+.video-campus iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: var(--surface-2);
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 750px) {
+    .destaque-campus {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .carrossel-container {
+        height: 260px;
+    }
+
+    .titulo-destaque {
+        min-height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .carrossel-container {
+        height: 220px;
+    }
+
+    .seta {
+        width: 34px;
+        height: 34px;
+        font-size: 14px;
+    }
+}
+

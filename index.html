@@ -37,6 +37,39 @@
       <dl class="info-turma" id="info-turma"></dl>
     </section>
 
+<!-- Carrossel com fotos do IFSP -->
+<section class="destaque-campus">
+
+     <div class="carrossel-campus">
+        <h2 class="titulo-destaque">Fotos do Campus Cubatão</h2>
+      <div class="carrossel-container">
+        <div class="carrossel-imagens">
+         
+            <img src="img/foto.carrossel/foto-ifsp_2.jpeg" alt="Estrutura do IFSP Campus Cubatão" class="ativa">
+            <img src="img/foto.carrossel/foto-ifsp_3.jpeg" alt="Espaços do IFSP Campus Cubatão">
+            <img src="img/foto.carrossel/foto-ifsp_4.jpeg" alt="Espaços do IFSP Campus Cubatão">
+        </div>
+
+        <button class="seta anterior" onclick="mudarImagem(-1)"> ᐊ</button>
+        <button class="seta proxima" onclick="mudarImagem(1)"> ᐅ</button>
+
+        <div class="indicadores">
+            <button class="ativo" onclick="mostrarImagem(0)"></button>
+            <button onclick="mostrarImagem(1)"></button>
+            <button onclick="mostrarImagem(2)"></button>
+             
+        </div>
+      </div>
+    </div>
+     <!-- VÍDEO DO YOUTUBE -->
+    <div class="video-campus">
+ <h2 class="titulo-destaque">Reportagem: 35 anos do Campus Cubatão</h2>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/vGdr_bD4XTI?si=PYQ4PBEwN6_oZCag" title="YouTube video player" 
+       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</section>
+
     <section class="materias" aria-label="Escolha uma matéria">
       <a class="materia-card materia-geo" data-materia="geografia" href="geografia.html">
         <h2>Geografia</h2>
