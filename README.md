@@ -106,6 +106,7 @@ Cada integrante da Equipe do Portal registra o que fez.
 |---|---|---|---|
 | Vinícius Ferreira | 10/11 | montou estrutura base do HTML,CSS e JS,adicionou seus trabalhos | 1H30M |
 |Lucas Antonio |19/11 |Criação das logotipos do projeto e implementação de script para alternar automaticamente as imagens de acordo com o tema claro ou escuro |1H|
+| Lavínnia W. B. | 20/11 | Colaborou na identidade visual: propôs combinação de cores, fontes, ícones para favicon | Indeterminado |
 
 ## Como abrir o projeto
 
