@@ -38,7 +38,7 @@ Cada grupo produziu um site em Geografia e outro em Português. O portal leva ao
 | Grupo | Integrantes | Site de Geografia | Site de Português |
 |---|---|---|---|
 | Royal Code | Vinícius Ferreira, Luis Gustavo, Ruan Silva, Gabriel Mariano | Conexão Terra | Caderno de Letras |
-| Instituto verdade digital | Lucas Antônio, Cauan Victor, Enzo Novais, Enzo Ricci, Miguel Godke Silva, Ruan Ribeiro | EcoByte | PenteFino |
+| Instituto verdade digital | Lucas Antônio, Cauan Victor, Enzo Novais, Enzo Ricci, Miguel Godke Silva, Ruan Ribeiro | EcoByte | Biblioteca da Informação |
 | Os Bardenistas | Lavínnia, Julia Sophia, Vitor, Kauã Hentique | ecosofia | Flânerie |
 | El Machos | Arthur Seiji, Luis Carlos, Davi Silva, Kauan Hideyuki | MinerTech | Límpidamente |
 | Blue Flow | Geovanna Vital, Maria Eduarda Lira, Rhuan Fonseca, Marina Matos, Giovanna Fernandes, Luis Felipe | consumo de água da IA | trabalho de português |
@@ -105,6 +105,7 @@ Cada integrante da Equipe do Portal registra o que fez.
 | Integrante | Data | O que fez | Tempo |
 |---|---|---|---|
 | Vinícius Ferreira | 10/11 | moutou estrutura base do HTML,CSS e JS,adicionou seus trabalhos | 1H30M |
+|Lucas Antonio |19/11 |Criação das logotipos do projeto e implementação de script para alternar automaticamente as imagens de acordo com o tema claro ou escuro |1H|
 
 ## Como abrir o projeto
 

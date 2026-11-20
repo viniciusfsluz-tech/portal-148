@@ -87,6 +87,14 @@ function configurarNavegacao() {
 }
 
 function configurarTema() {
+
+
+
+
+
+    
+
+    
     const botao = document.querySelector("#theme-toggle");
     let salvo = null;
     try { salvo = localStorage.getItem("portal-tema"); } catch (e) { /* sem armazenamento */ }
@@ -106,6 +114,22 @@ function configurarTema() {
         atualizar();
     });
     atualizar();
+
+
+
+function trocarIcones() {
+    const claro = document.documentElement.dataset.theme === "claro";
+
+    document.querySelector(".logo_claro").style.display = claro ? "block" : "none";
+    document.querySelector(".logo_escuro").style.display = claro ? "none" : "block";
+
+    const favicon = document.querySelector('link[rel="icon"]');
+    if (favicon) {
+        favicon.href = claro ? "img/logoclaro.png" : "img/logoportal.png";
+    }
+}
+    
+
 }
 
 function configurarVoltarTopo() {
