@@ -426,3 +426,20 @@ body {
     }
 }
 
+/*professores*/
+
+
+.prof_p{text-align: center;}
+.card_prof{
+
+   background-color: #313645;
+    
+
+    height: fit-content;
+    width: auto ; 
+    position: sticky;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.barra_prof{width: 90px; height: auto;}
