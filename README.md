@@ -42,7 +42,7 @@ Cada grupo produziu um site em Geografia e outro em Português. O portal leva ao
 | Os Bardenistas | Lavínnia, Julia Sophia, Vitor, Kauã Hentique | ecosofia | Flânerie |
 | El Machos | Arthur Seiji, Luis Carlos, Davi Silva, Kauan Hideyuki | MinerTech | Límpidamente |
 | Blue Flow | Geovanna Vital, Maria Eduarda Lira, Rhuan Fonseca, Marina Matos, Giovanna Fernandes, Luis Felipe | consumo de água da IA | trabalho de português |
-| Um passo abaixo - Uma incrível potência ou uma possível venda? | Nicole, Miuke, Marcelo, Maria eduarda, Isabelly | Um passo abaixo - Uma incrível potência ou uma possível venda? | _a publicar_ |
+| Um passo abaixo - Uma incrível potência ou uma possível venda? | Nicole, Miuke, Marcelo, Maria eduarda, Isabelly | Um passo abaixo - Uma incrível potência ou uma possível venda? | A Redescoberta - Entre Flores, Versos e Palavra. |
 | Oceon | Alexandra, Izabella, Eduarda R | Tecnologia-AZUL | Ponto de Vista |
 | Varoas | Daphne, Laura, Anna, Gaby | Abyssal | Cantinho da Leitura |
 
