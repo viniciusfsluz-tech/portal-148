@@ -23,8 +23,8 @@ Um integrante de cada grupo produtor, representando o seu grupo.
 | Integrante | Grupo que representa | Papel na equipe |
 |---|---|---|
 | Vinícius Ferreira | Royal Code | Publicar site,fazer HTML e JS |
-| Lucas Antônio | Instituto verdade digital | _PREENCHER_ |
-| Lavínnia | Os Bardenistas | _PREENCHER_ |
+| Lucas Antônio | Instituto verdade digital | Criação de logotipo e troca de imagens entre temas claro / escuro,adição fotos dos professores |
+| Lavínnia | Os Bardenistas | CSS, identidade visual ,FavIcon, fontes |
 | Kauã Hideyuki | El Machos | _PREENCHER_ |
 | Geovanna Vital | Blue Flow | carrossel e video |
 | Nicole | Um passo abaixo - Uma incrível potência ou uma possível venda?| _PREENCHER_ |
@@ -43,7 +43,7 @@ Cada grupo produziu um site em Geografia e outro em Português. O portal leva ao
 | El Machos | Arthur Seiji, Luis Carlos, Davi Silva, Kauan Hideyuki | MinerTech | Límpidamente |
 | Blue Flow | Geovanna Vital, Maria Eduarda Lira, Rhuan Fonseca, Marina Matos, Giovanna Fernandes, Luis Felipe | consumo de água da IA | trabalho de português |
 | Um passo abaixo - Uma incrível potência ou uma possível venda? | Nicole, Miuke, Marcelo, Maria eduarda, Isabelly | Um passo abaixo - Uma incrível potência ou uma possível venda? | _a publicar_ |
-| Oceon | Alexandra, Izabella, Eduarda R | Tecnologia-AZUL | _a publicar_ |
+| Oceon | Alexandra, Izabella, Eduarda R | Tecnologia-AZUL | Ponto de Vista |
 | gp8 | Daphne, Laura, Anna, Gaby | _a publicar_ | _a publicar_ |
 
 Os links de cada site ficam em `js/config.js`.
