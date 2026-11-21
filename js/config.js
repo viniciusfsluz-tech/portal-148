@@ -85,7 +85,7 @@ const grupos = [
         nome:"El Machos",
         representante: "Kauã Hideyuki",
         integrantes: ["Arthur Seiji", "Luis Carlos", "Davi Silva", "Kauã Hideyuki"],
-        sites: { geografia: "https://arthurshibukawa-sudo.github.io/Trabalho_4BIM_Geografia/" , portugues: "https://arthurshibukawa-sudo.github.io/trabalho-4BIM/" },
+        sites: { geografia: "https://arthurshibukawa-sudo.github.io/Trabalho_4BIM_Geografia/" , portugues: "https://arthurshibukawa-sudo.github.io/trabalho_4BIM_portugues/" },
         LinkGithub: { geografia: "https://github.com/arthurshibukawa-sudo/Trabalho_4BIM_Geografia", portugues: "https://github.com/arthurshibukawa-sudo/trabalho_4BIM_portugues" },
         nomesSites: {
         geografia: "MinerTech",
