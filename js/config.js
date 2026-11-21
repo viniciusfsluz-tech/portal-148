@@ -136,14 +136,14 @@ const grupos = [
         cor: 7
     },
         {
-        nome: "gp8",
+        nome: "Varoas",
         representante: "Daphne",
         integrantes: ["Daphne","Laura","Anna","Gaby"],
-        sites: { geografia: null, portugues: null },
-        LinkGithub: { geografia: null, portugues: null },
+        sites: { geografia: "https://daphh321.github.io/Sites-/", portugues: "https://daphh321.github.io/portugues/" },
+        LinkGithub: { geografia: "https://github.com/Daphh321/Sites-", portugues: "https://github.com/daphh321/portugues/" },
         nomesSites: {
-        geografia: null,
-        portugues: null
+        geografia: "Abyssal",
+        portugues: "Cantinho da Leitura"
     },
         cor: 8
     }

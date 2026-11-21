@@ -29,7 +29,7 @@ Um integrante de cada grupo produtor, representando o seu grupo.
 | Geovanna Vital | Blue Flow | carrossel e video |
 | Nicole | Um passo abaixo - Uma incrível potência ou uma possível venda?| _PREENCHER_ |
 | Alexandra | Oceon | _PREENCHER_ |
-| Daphne | gp8 | _PREENCHER_ |
+| Daphne | Varoas | _PREENCHER_ |
 
 ## Grupos produtores e seus sites
 
@@ -44,7 +44,7 @@ Cada grupo produziu um site em Geografia e outro em Português. O portal leva ao
 | Blue Flow | Geovanna Vital, Maria Eduarda Lira, Rhuan Fonseca, Marina Matos, Giovanna Fernandes, Luis Felipe | consumo de água da IA | trabalho de português |
 | Um passo abaixo - Uma incrível potência ou uma possível venda? | Nicole, Miuke, Marcelo, Maria eduarda, Isabelly | Um passo abaixo - Uma incrível potência ou uma possível venda? | _a publicar_ |
 | Oceon | Alexandra, Izabella, Eduarda R | Tecnologia-AZUL | Ponto de Vista |
-| gp8 | Daphne, Laura, Anna, Gaby | _a publicar_ | _a publicar_ |
+| Varoas | Daphne, Laura, Anna, Gaby | Abyssal | Cantinho da Leitura |
 
 Os links de cada site ficam em `js/config.js`.
 
