@@ -128,7 +128,7 @@ const grupos = [
         representante: "Alexandra",
         integrantes: ["Alexandra","Izabella","Eduarda R"],
         sites: { geografia: "https://rabatinieduarda-code.github.io/tecnologia-azul/", portugues: "https://rabatinieduarda-code.github.io/ponto-de-vista/" },
-        LinkGithub: { geografia: https://github.com/rabatinieduarda-code/tecnologia-azul, portugues: https://github.com/rabatinieduarda-code/ponto-de-vista },
+        LinkGithub: { geografia: "https://github.com/rabatinieduarda-code/tecnologia-azul", portugues: "https://github.com/rabatinieduarda-code/ponto-de-vista" },
         nomesSites: {
         geografia: "Tecnologia Azul",
         portugues: "Ponto de Vista"
