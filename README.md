@@ -27,7 +27,7 @@ Um integrante de cada grupo produtor, representando o seu grupo.
 | Lavínnia | Os Bardenistas | CSS, identidade visual ,FavIcon, fontes |
 | Kauã Hideyuki | El Machos | _PREENCHER_ |
 | Geovanna Vital | Blue Flow | carrossel e video |
-| Nicole | Um passo abaixo - Uma incrível potência ou uma possível venda?| _PREENCHER_ |
+| Nicole | Um passo abaixo - Uma incrível potência ou uma possível venda?| ideias de paletas de cores e ajustes na cor do portal |
 | Alexandra | Oceon | _PREENCHER_ |
 | Daphne | Varoas | _PREENCHER_ |
 
