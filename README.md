@@ -84,7 +84,25 @@ portal-148/
 
 ## Identidade visual
 
-A paleta de cores, a tipografia e a justificativa das escolhas estão na página `estilo.html`. As cores são variáveis CSS no `:root` do `css/style.css`, com um tema escuro e um claro.
+*Conceito.* O portal reúne os trabalhos de oito grupos, então a paleta precisa fazer duas coisas: manter uma base neutra e confortável de ler e dar uma cor própria a cada grupo e a cada matéria. Todas as cores são variáveis CSS no :root do css/style.css, com um tema escuro (padrão) e um tema claro (:root[data-theme="claro"]) que troca só os valores.
+
+*Cores de base*
+
+| Variável | Escuro | Claro | Uso |
+|---|---|---|---|
+| --bg | #0f1424 | #f4f6fc | fundo da página |
+| --surface | #182038 | #ffffff | cartões e blocos |
+| --surface-2 | #212b4a | #e9edf8 | hover, campos e áreas de apoio |
+| --text | #eef1fa | #182038 | texto principal |
+| --muted | #aab3cf | #53607f | texto secundário |
+| --primary | #68ddbd | #91715b | links, botões, destaques e foco |
+| --line | #2f3a5f | #ccd3e8 | bordas e divisórias |
+
+*Cores por matéria.* Verde #2fa35c para Geografia (natureza, território) e azul #1d9bd8 para Língua Portuguesa. Ficam na borda e no botão do cartão de cada matéria na página inicial.
+
+*Cores por grupo.* Oito cores (--cor-1 a --cor-8), uma para cada grupo, definidas em js/config.js pelo campo cor. Aparecem na faixa do cartão do grupo, no selo e na borda dos trabalhos, para o visitante identificar de qual grupo é cada trabalho.
+
+*Justificativa.* O azul-escuro de fundo dá um visual sóbrio e reduz o cansaço da leitura. O verde-água de destaque (#68ddbd) tem bom contraste com ele. No tema claro, o destaque passa a um marrom (#91715b) para manter a leitura em fundo claro. A paleta de grupos usa tons bem diferentes entre si para que um grupo não seja confundido com outro, e a página estilo.html mostra todas as cores e os exemplos de uso.
 
 ## Fontes e créditos de terceiros
 
