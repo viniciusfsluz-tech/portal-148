@@ -26,7 +26,6 @@
   --azul: #1d9bd8;
   --largura: 1100px;
   --sans: Inter, "Segoe UI", Arial, sans-serif;
-  --display: "Poiret One", cursive;
   --serif: Georgia, "Times New Roman", serif;
 
  
@@ -232,12 +231,6 @@ figcaption { color: var(--muted); font-size: .85rem; margin-top: 8px; }
   * { transition: none !important; }
 }
 
-.poiret-one-regular {
-  font-family: "Poiret One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 body {
   font-size: 1.15rem;              /* maior que o normal */
   letter-spacing: .02em;           /* respira mais */
@@ -270,7 +263,7 @@ body {
 /* TÍTULOS */
 
 .titulo-destaque {
-    font-family: var(--display);
+    font-family: var(--serif);
     font-size: 23px;
     color: var(--text);
     text-align: center;
@@ -446,3 +439,13 @@ body {
     background-color: var(--surface-2);   
 }
 .barra_prof{width: 90px; height: auto;}
+
+/* ---------- Página Trabalhos: filtros e link do código ---------- */
+.filtros-sites { grid-template-columns: 2fr 1fr 1fr auto; align-items: end; }
+.botao-limpar { padding: 11px 18px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--text); font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer; }
+.botao-limpar:hover { background: var(--surface-2); }
+.link-codigo { display: inline-block; margin-top: 12px; font-size: .92rem; }
+@media (max-width: 760px) { .filtros-sites { grid-template-columns: 1fr; } }
+
+/* Nome do professor no cartão (título h3, com o tamanho dos títulos de cartão) */
+.card_prof h3 { margin: 8px 0 8px; font-size: 1.5rem; }

@@ -22,14 +22,16 @@ Um integrante de cada grupo produtor, representando o seu grupo.
 
 | Integrante | Grupo que representa | Papel na equipe |
 |---|---|---|
-| Vinícius Ferreira | Royal Code | Publicar site,fazer HTML e JS |
-| Lucas Antônio | Instituto verdade digital | Criação de logotipo e troca de imagens entre temas claro / escuro,adição fotos dos professores |
-| Lavínnia | Os Bardenistas | CSS, identidade visual ,FavIcon, fontes |
+| Vinícius Ferreira | Royal Code | Estrutura do site (HTML e JavaScript) e publicação no GitHub Pages |
+| Lucas Antônio | Instituto verdade digital | Logotipos, troca de imagem entre os temas claro e escuro e fotos dos professores |
+| Lavínnia | Os Bardenistas | CSS e identidade visual: cores, fontes e ícone (favicon) |
 | Kauã Hideyuki | El Machos | _PREENCHER_ |
-| Geovanna Vital | Blue Flow | carrossel e video |
-| Nicole | Um passo abaixo - Uma incrível potência ou uma possível venda?| ideias de paletas de cores e ajustes na cor do portal |
+| Geovanna Vital | Blue Flow | Carrossel de fotos e vídeo da página inicial |
+| Nicole | Um passo abaixo - Uma incrível potência ou uma possível venda? | Ideias de paleta de cores e ajustes de cor do portal |
 | Alexandra | Oceon | _PREENCHER_ |
 | Daphne | Varoas | _PREENCHER_ |
+
+O papel de cada representante também aparece na página **Equipe** do portal (campo `papel` em `js/config.js`).
 
 ## Grupos produtores e seus sites
 
@@ -38,7 +40,7 @@ Cada grupo produziu um site em Geografia e outro em Português. O portal leva ao
 | Grupo | Integrantes | Site de Geografia | Site de Português |
 |---|---|---|---|
 | Royal Code | Vinícius Ferreira, Luis Gustavo, Ruan Silva, Gabriel Mariano | Conexão Terra | Caderno de Letras |
-| Instituto verdade digital | Lucas Antônio, Cauan Victor, Enzo Novais, Enzo Ricci, Miguel Godke Silva, Ruan Ribeiro | EcoByte | Biblioteca da Informação |
+| Instituto verdade digital | Lucas Antônio, Cauan Victor, Enzo Novais, Enzo Ricci, Miguel Godke Silva, Ruan Ribeiro | EcoByte | PenteFino |
 | Os Bardenistas | Lavínnia, Julia Sophia, Vitor, Kauã Hentique | ecosofia | Flânerie |
 | El Machos | Arthur Seiji, Luis Carlos, Davi Silva, Kauan Hideyuki | MinerTech | Límpidamente |
 | Blue Flow | Geovanna Vital, Maria Eduarda Lira, Rhuan Fonseca, Marina Matos, Giovanna Fernandes, Luis Felipe | consumo de água da IA | trabalho de português |
@@ -57,20 +59,19 @@ Os links de cada site ficam em `js/config.js`.
 | `geografia.html` | Grupos e sites de Geografia |
 | `equipe.html` | Equipe do Portal e grupos produtores, com o link do código no GitHub |
 | `estilo.html` | Guia de estilo: paleta, tipografia e componentes |
-| `trabalho.html` | Página de detalhe de um trabalho |
+| `trabalhos.html` | Todos os sites dos grupos (Geografia e Português) em uma só lista, com busca por texto e filtros por matéria e grupo |
 
 ## Estrutura do repositório
 
 ```
 portal-148/
 ├── index.html
-├── portugues.html  geografia.html  equipe.html  estilo.html  trabalho.html
+├── portugues.html  geografia.html  trabalhos.html  equipe.html  estilo.html
 ├── css/
 │   └── style.css        paleta (variáveis :root), tipografia e layout
 ├── js/
 │   ├── config.js        turma, professores, grupos, links e itens do menu
-│   ├── dados.js         trabalhos cadastrados (arrays de objetos)
-│   └── main.js          menu, tema, cartões e interações
+│   └── main.js          menu, tema, cartões, busca e filtros, equipe e interações
 ├── img/                 imagens, favicon e QR Code
 └── README.md
 ```
@@ -79,12 +80,15 @@ portal-148/
 
 - **Dados em JavaScript:** os grupos, os professores e o menu ficam em arrays e objetos no `js/config.js`. Nenhum cartão é escrito à mão no HTML: o `js/main.js` monta o menu, as listas de grupos e a página Equipe com laços (`map`, `filter`) e funções.
 - **Para mudar o portal:** edite só o `js/config.js` (por exemplo, ligar ou desligar uma matéria com `portugues: true/false`).
+- **Busca e filtros (página Trabalhos):** a lista de 16 sites (8 grupos × 2 matérias) é montada a partir do array `grupos` com `flatMap`, `filter` e `map`; o visitante busca por texto e filtra por matéria e por grupo.
 - **Interações:** menu responsivo (abre e fecha, e o Esc fecha), tema claro e escuro salvo no navegador e botão de voltar ao topo.
 - **Acessibilidade:** link "Pular para o conteúdo", foco visível, navegação por teclado e imagens com texto alternativo.
 
 ## Identidade visual
 
 *Conceito.* O portal reúne os trabalhos de oito grupos, então a paleta precisa fazer duas coisas: manter uma base neutra e confortável de ler e dar uma cor própria a cada grupo e a cada matéria. Todas as cores são variáveis CSS no :root do css/style.css, com um tema escuro (padrão) e um tema claro (:root[data-theme="claro"]) que troca só os valores.
+
+*Tipografia.* Duas famílias: **Inter** (Google Fonts) nos textos, botões e menu, e **Georgia** (serifada, já instalada nos sistemas) nos títulos.
 
 *Cores de base*
 
@@ -109,9 +113,9 @@ portal-148/
 | Item | Origem | Licença |
 |---|---|---|
 | Fonte Inter | Google Fonts | SIL Open Font License |
-| Fonte Poiret One | Google Fonts | SIL Open Font License |
-| imagem do topo da página inicial | Produção própria | Imagem autoral |
-|  Vídeo de apresentação |  YouTube – [https://youtu.be/vGdr_bD4XTI?si=Gh6bnGaiBVvCQDC0]|  Direitos autorais do autor original|
+| Fotos do carrossel da página inicial (Campus Cubatão) | Produção própria | Imagem autoral |
+| Imagem de exemplo do guia de estilo (`img/data-center-aereo.jpeg`) | The New York Times, "Data center scale" | Direitos do autor; uso acadêmico, sem fins lucrativos |
+| Vídeo "35 anos do Campus Cubatão" (página inicial) | YouTube: https://youtu.be/vGdr_bD4XTI | Direitos do autor original; incorporado pelo player do YouTube |
 | QR Code | Gerado a partir do endereço do portal publicado | — |
 
 As fontes de imagens, textos e vídeos de cada trabalho ficam nos READMEs e nas páginas dos sites de cada grupo.

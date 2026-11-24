@@ -9,9 +9,9 @@ const config = {
     turma: "148",
     ano: 2026,
     professores: [
-        { nome: "Nelson",  materia: "Programação", areas: ["geografia","portugues"], foto: "img/professores/nelson.jpg" },
-        { nome: "Augusto", materia: "Geografia",   areas: ["geografia"],             foto: "img/professores/augusto.jpg" },
-        { nome: "Fabiana", materia: "Português",   areas: ["portugues"],             foto: "img/professores/fabiana.jpg" }
+        { nome: "Nelson",  materia: "Programação", areas: ["geografia","portugues"], foto: "img/professores/nelson.png", texto: "Professor de PL1, LP1 e ALG" },
+        { nome: "Augusto", materia: "Geografia",   areas: ["geografia"],             foto: "img/professores/augusto.png", texto: "Professor de Geografia" },
+        { nome: "Fabiana", materia: "Português",   areas: ["portugues"],             foto: "img/professores/fabiana.png", texto: "Professora de Português" }
     ],
     // Vídeo da página inicial: null ou { tipo: "youtube", id: "CODIGO", titulo: "..." }
     videoInicio: null,
@@ -21,14 +21,15 @@ const config = {
     geografia: true,
 
     // Link do portal publicado (usado no QR Code e no README)
-    urlPublicada: "preencher",
-    repositorioPortal: "preencher"
+    urlPublicada: "https://viniciusfsluz-tech.github.io/portal-148/",
+    repositorioPortal: "https://github.com/viniciusfsluz-tech/portal-148"
 };
 
 /*
  * Um objeto por grupo produtor.
- *   nome:          IGUAL ao campo "grupo" dos trabalhos em dados.js
+ *   nome:          nome do grupo (aparece nos cartões, na página Equipe e no filtro de Trabalhos)
  *   representante: quem fica na Equipe do Portal (um por grupo)
+ *   papel:         o que o representante fez no portal (aparece na página Equipe; sem ele mostra "A definir")
  *   cor:           número da paleta de cores (1 a 8), diferente em cada grupo
  *   sites:         link do SITE PUBLICADO do grupo em cada matéria (GitHub Pages), não do repositório.
  *                  Use null onde o grupo não entregou site. O botão "Acessar site" abre esse link direto.
@@ -37,6 +38,7 @@ const grupos = [
     {
         nome: "Royal Code",
         representante: "Vinícius Ferreira",
+        papel: "Estrutura do site (HTML e JavaScript) e publicação no GitHub Pages",
         integrantes: ["Vinícius Ferreira", "Luis Gustavo", "Ruan Silva", "Gabriel Mariano"],
         areas: ["portugues", "geografia"],
         sites: {
@@ -57,6 +59,7 @@ const grupos = [
     {
         nome: "Instituto verdade digital",
         representante: "Lucas Antônio",
+        papel: "Logotipos, troca de imagem entre os temas claro e escuro e fotos dos professores",
         integrantes: ["Lucas Antônio", "Cauan Victor", "Enzo Novais", "Enzo Ricci", "Miguel Godke Silva", "Ruan Ribeiro"],
         sites: {
             geografia: "https://cauanvictorcavalcanti-a11y.github.io/ecobyte/",
@@ -72,6 +75,7 @@ const grupos = [
     {
         nome: "Os Bardenistas",
         representante: "Lavínnia",
+        papel: "CSS e identidade visual: cores, fontes e ícone (favicon)",
         integrantes: ["Lavínnia", "Julia Sophia","Vitor","Kauã Hentique"],
         sites: { geografia: "https://lavinniawboliveira-coder.github.io/Ecosofia---OsBaderneiros/", portugues: "https://lavinniawboliveira-coder.github.io/Flanerie-OsBaderneiros/" },
         LinkGithub: { geografia: "https://github.com/lavinniawboliveira-coder/Ecosofia---OsBaderneiros", portugues: "https://github.com/lavinniawboliveira-coder/Flanerie-OsBaderneiros" },
@@ -98,6 +102,7 @@ const grupos = [
         nome: "Blue Flow",
         sala: "148",
         representante: "Geovanna Vital",
+        papel: "Carrossel de fotos e vídeo da página inicial",
         integrantes: ["Geovanna Vital", "Maria Eduarda Lira", "Rhuan Fonseca", "Marina Matos", "Giovanna Fernandes", "Luis Felipe"],
         areas: ["portugues", "geografia"],  
         sites: {
@@ -114,6 +119,7 @@ const grupos = [
     {
         nome: " Um passo abaixo - Uma incrível potência ou uma possível venda?",
         representante: "Nicole",
+        papel: "Ideias de paleta de cores e ajustes de cor do portal",
         integrantes: ["Nicole","Miuke","Marcelo","Maria eduarda","Isabelly"],
         sites: { geografia: "https://max-093.github.io/terras-raras-trabalho/"  , portugues: "https://max-093.github.io/Portugues-trabalho/" },
         LinkGithub: { geografia: "https://github.com/max-093/terras-raras-trabalho.git" , portugues: "https://github.com/max-093/Portugues-trabalho.git" },
@@ -155,6 +161,7 @@ const itensMenu = [
     { texto: "Início",    href: "index.html",     pagina: "inicio" },
     { texto: "Português", href: "portugues.html", pagina: "portugues" },
     { texto: "Geografia", href: "geografia.html", pagina: "geografia" },
+    { texto: "Trabalhos", href: "trabalhos.html", pagina: "trabalhos" },
     { texto: "Equipe",    href: "equipe.html",    pagina: "equipe" },
     { texto: "Estilo",    href: "estilo.html",    pagina: "estilo" }
 ];
